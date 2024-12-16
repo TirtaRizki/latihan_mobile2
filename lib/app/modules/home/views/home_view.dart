@@ -38,11 +38,7 @@ class _DashboardAdminState extends State<DashboardAdmin> {
       'view': MahasiswaView(),
       'add': () => MahasiswaAddView()
     },
-    {
-      'title': 'Data Dosen',
-      'view': DosenView(),
-      'add': () => DosenAddView()
-    },
+    {'title': 'Data Dosen', 'view': DosenView(), 'add': () => DosenAddView()},
     {
       'title': 'Data Pegawai',
       'view': PegawaiView(),
@@ -75,7 +71,7 @@ class _DashboardAdminState extends State<DashboardAdmin> {
         children: [
           DrawerHeader(
             decoration: BoxDecoration(
-              color: const Color.fromARGB(255, 33, 113, 160),
+              color: const Color.fromARGB(255, 101, 181, 227),
             ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
@@ -91,7 +87,7 @@ class _DashboardAdminState extends State<DashboardAdmin> {
                   },
                 ),
                 Text(
-                  "Naswalya",
+                  "Tirta Rizki Ramadhan",
                   style: TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.bold,
@@ -101,7 +97,7 @@ class _DashboardAdminState extends State<DashboardAdmin> {
                   height: 2,
                 ),
                 Text(
-                  'Admin',
+                  'Admin Public',
                   style: TextStyle(
                     fontSize: 12,
                     color: Colors.white,
